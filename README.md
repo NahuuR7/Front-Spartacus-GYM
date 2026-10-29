@@ -19,10 +19,11 @@ Control de versiones: Git y GitHub
 📂 Estructura del Proyecto
 
 El repositorio está organizado de la siguiente manera:
+
 Front-Spartacus-GYM/
+
 │
 └── Frontend/
-    
     ├── src/             # Código fuente de la aplicación (componentes, vistas, servicios)
     ├── angular.json     # Archivo de configuración de Angular
     ├── package.json     # Dependencias y scripts del proyecto
