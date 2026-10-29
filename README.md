@@ -15,6 +15,7 @@ Gestor de paquetes: npm
 Control de versiones: Git y GitHub
 
 📂 Estructura del Proyecto
+
 El repositorio está organizado de la siguiente manera:
 Front-Spartacus-GYM/
 │
@@ -24,18 +25,18 @@ Front-Spartacus-GYM/
     ├── package.json     # Dependencias y scripts del proyecto
     └── ...
 ⚙️ Instalación y Configuración local
-1. Si deseas clonar y ejecutar este proyecto en tu computadora, sigue estos pasos:
+Si deseas clonar y ejecutar este proyecto en tu computadora, sigue estos pasos:
 
-Clona el repositorio:
+1. Clona el repositorio:
 Bash
 git clone https://github.com/NahuuR7/Front-Spartacus-GYM.git
 2. Entra a la carpeta del proyecto:
 Bash
 cd Front-Spartacus-GYM/Frontend
-3. Instala las dependencias:
+4. Instala las dependencias:
 Bash
 npm install
-4. Ejecuta el servidor de desarrollo:
+5. Ejecuta el servidor de desarrollo:
 Bash
 ng serve
 "La aplicación estará disponible en http://localhost:4200/"
