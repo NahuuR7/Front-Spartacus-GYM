@@ -1,7 +1,9 @@
 🏋️ Front-Spartacus-GYM
+
 Interfaz de usuario (Frontend) para la aplicación de gestión de gimnasios Spartacus. Este proyecto está diseñado para ofrecer una experiencia intuitiva, moderna y fluida tanto para los administradores como para los usuarios del gimnasio.
 
 🚀 Tecnologías utilizadas
+
 El proyecto está desarrollado utilizando las siguientes tecnologías y herramientas:
 
 Framework: Angular
@@ -20,6 +22,7 @@ El repositorio está organizado de la siguiente manera:
 Front-Spartacus-GYM/
 │
 └── Frontend/
+    
     ├── src/             # Código fuente de la aplicación (componentes, vistas, servicios)
     ├── angular.json     # Archivo de configuración de Angular
     ├── package.json     # Dependencias y scripts del proyecto
