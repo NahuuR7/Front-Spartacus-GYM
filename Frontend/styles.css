@@ -1,0 +1,231 @@
+/* PALETA NEUMORFISMO OSCURO */
+:root {
+  --bg-color: #292D32;
+  --text-main: #E0E5EC;
+  --text-muted: #8892B0;
+  --cyan-neon: #00E5FF;
+  --orange-neon: #FF6B6B;
+  --shadow-dark: #1F2226;
+  --shadow-light: #33383E;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  min-height: 100vh;
+}
+
+/* LAYOUT MULTIPANTALLA */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 280px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 20px 20px 0;
+  z-index: 10;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+/* LOGO */
+.logo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.logo h2 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+.logo span {
+  color: var(--cyan-neon);
+}
+.logo p {
+  color: var(--text-muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* UTILIDADES NEUMÓRFICAS */
+.neu-box {
+  background: var(--bg-color);
+  box-shadow: 8px 8px 16px var(--shadow-dark), -8px -8px 16px var(--shadow-light);
+}
+
+.neu-card {
+  background: var(--bg-color);
+  border-radius: 15px;
+  box-shadow: 6px 6px 12px var(--shadow-dark), -6px -6px 12px var(--shadow-light);
+  padding: 25px;
+}
+
+.neu-inset {
+  background: var(--bg-color);
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 10px var(--shadow-dark), inset -5px -5px 10px var(--shadow-light);
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* BOTONES */
+.neu-btn {
+  background: var(--bg-color);
+  color: var(--text-main);
+  border: none;
+  border-radius: 12px;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px var(--shadow-dark), -5px -5px 10px var(--shadow-light);
+  transition: all 0.2s ease;
+}
+
+.neu-btn:hover {
+  color: var(--cyan-neon);
+}
+
+.neu-btn:active, .neu-btn.active {
+  box-shadow: inset 4px 4px 8px var(--shadow-dark), inset -4px -4px 8px var(--shadow-light);
+  color: var(--cyan-neon);
+}
+
+.neu-btn-small {
+  background: var(--bg-color);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: var(--text-main);
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 3px 3px 6px var(--shadow-dark), -3px -3px 6px var(--shadow-light);
+}
+
+.neu-btn-small:active {
+  box-shadow: inset 3px 3px 6px var(--shadow-dark), inset -3px -3px 6px var(--shadow-light);
+}
+
+.btn-edit { color: #F39C12; }
+.btn-danger { color: var(--orange-neon); }
+.btn-save { color: var(--cyan-neon); text-align: center; width: 100%; margin-top: 20px;}
+
+/* PANTALLAS */
+.screen-title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: var(--text-main);
+  text-shadow: 2px 2px 4px var(--shadow-dark);
+}
+
+/* DASHBOARD STATS */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+.stat-card {
+  text-align: center;
+}
+.stat-value {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.text-cyan { color: var(--cyan-neon); }
+.text-orange { color: var(--orange-neon); }
+
+/* LISTA */
+.header-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.user-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.user-info h3 { color: var(--cyan-neon); margin-bottom: 5px; }
+.user-info p { color: var(--text-muted); font-size: 14px; }
+.user-actions { display: flex; gap: 15px; align-items: center; }
+.badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  background: var(--shadow-dark);
+  color: var(--text-main);
+}
+
+/* FORMULARIO */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.input-group {
+  margin-bottom: 20px;
+}
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+.neu-input {
+  width: 100%;
+  background: var(--bg-color);
+  border: none;
+  color: var(--text-main);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: inset 4px 4px 8px var(--shadow-dark), inset -4px -4px 8px var(--shadow-light);
+  outline: none;
+  font-size: 16px;
+}
+.neu-input:focus {
+  box-shadow: inset 6px 6px 12px var(--shadow-dark), inset -6px -6px 12px var(--shadow-light);
+}
+/* =========================
+   PANTALLA DE LOGIN
+========================= */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+}
+
+.logo-login {
+  margin-bottom: 30px;
+}
