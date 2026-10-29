@@ -59,4 +59,5 @@ ng serve
 "La aplicación estará disponible en http://localhost:4200/"
 
 👨‍💻 Autores
+
 NahuuR7 (Rivera Nahuel) - 18deabri (Reynaga Eduardo) - geronimotapia (Tapia Geronimo)
