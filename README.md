@@ -33,17 +33,26 @@ El repositorio está organizado de la siguiente manera:
 Si deseas clonar y ejecutar este proyecto en tu computadora, sigue estos pasos:
 
 1. Clona el repositorio:
+
 Bash
+
 git clone https://github.com/NahuuR7/Front-Spartacus-GYM.git
 2. Entra a la carpeta del proyecto:
+
 Bash
+
 cd Front-Spartacus-GYM/Frontend
 4. Instala las dependencias:
+
 Bash
+
 npm install
 5. Ejecuta el servidor de desarrollo:
+
 Bash
+
 ng serve
+
 "La aplicación estará disponible en http://localhost:4200/"
 
 👨‍💻 Autores
