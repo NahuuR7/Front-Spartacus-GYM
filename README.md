@@ -24,7 +24,9 @@ Front-Spartacus-GYM/
     ├── angular.json     # Archivo de configuración de Angular
     ├── package.json     # Dependencias y scripts del proyecto
     └── ...
+
 ⚙️ Instalación y Configuración local
+
 Si deseas clonar y ejecutar este proyecto en tu computadora, sigue estos pasos:
 
 1. Clona el repositorio:
